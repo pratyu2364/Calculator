@@ -9,5 +9,8 @@
         <module name="Mini-project" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="calculatorDevOps" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
