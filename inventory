@@ -1,4 +1,4 @@
 [ansible_nodes]
-192.168.113.128  ansible_user=pratyush
+192.168.113.128  ansible_user=prat
 [ansible_nodes:vars]
 ansible_connection=local
