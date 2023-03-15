@@ -1,3 +1,4 @@
-[ubuntu20]
-172.17.0.1
-ansible_user=pratyush
+[ansible_nodes]
+192.168.113.128  ansible_user=pratyush
+[ansible_nodes:vars]
+ansible_connection=local
