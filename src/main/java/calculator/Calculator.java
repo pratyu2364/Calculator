@@ -88,7 +88,7 @@ public class Calculator {
     }
     public double sub (double num1, double num2) {
         logger.info("[SUB] - " + num1 +" "+num2);
-        double result = num1 + num2;
+        double result = num1 - num2;
         logger.info("[RESULT - SUB] - " + result);
         return result;
     }
