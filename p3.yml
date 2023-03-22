@@ -8,7 +8,7 @@
         state: started
 
     - name: pull docker image
-      shell: docker pull pratyu2364/mavenrep
+      shell: docker pull pratyu2364/mavenrep:latest
 
     - name: running container
-      shell: docker run -it -d pratyu2364/mavenrep
+      shell: docker run -it -d pratyu2364/mavenrep:latest
